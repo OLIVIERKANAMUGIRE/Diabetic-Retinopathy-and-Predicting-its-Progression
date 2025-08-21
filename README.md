@@ -14,14 +14,15 @@ Keywords: diabetic retinopathy, longitudinal study, autoencoders, neural ordinar
 
 ## Models 
 Overview of the general proposed framework for Diabetic Retinopathy progression using NODE. The approach consists of two main tasks: (1) Learning efficient latent representations by fusing multimodal data (retinal images and clinical examination data) through reconstruction and classification objectives; (2) Modeling the temporal dynamics of DR progression using Neural Ordinary Differential Equations, enabling prediction of future DR grades and estimation of time-to-progression based on patient history.
-![Detailed Pipeline of the Project](diagram.pdf)
+![Detailed Pipeline of the Project](diagram (1).png)
 
 Combined autoencoder and NODE model for predicting future states of diabetic
 retinopathy. Color-codes show which true reconstruction corresponds to the latent representation with the same color. DN represents data.
-![Training Processing of models](node.pdf)
+![Training Processing of models](node.png)
+![Fundus and its reconstruction with d= 8](d8.png)
 
 Autoencoders architecture: conv2d is convolutional operation and conv2d.T is convolutional transpose. d is the number of latent channels. σ represents sigmoid activation function.
-![Autoencoders architecture](AUTOENCODER.pdf)
+![Autoencoders architecture](AUTOENCODER.png)
 
 
 
