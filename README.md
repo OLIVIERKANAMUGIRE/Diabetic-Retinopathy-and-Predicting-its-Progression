@@ -18,9 +18,9 @@ Overview of the general proposed framework for Diabetic Retinopathy progression 
 
 Combined autoencoder and NODE model for predicting future states of diabetic retinopathy. Color-codes show which true reconstruction corresponds to the latent representation with the same color. DN represents data.
 
-<img src="node.png" alt="Training Processing of models" width="400"/>
+<img src="node.png" alt="Training Processing of models" width="300"/>
 
 Autoencoders architecture: conv2d is convolutional operation and conv2d.T is convolutional transpose. d is the number of latent channels. σ represents sigmoid activation function.
 
-<img src="AUTOENCODER.png" alt="Autoencoders architecture" width="400"/>
-<img src="d8.png" alt="Fundus and its reconstruction with d= 8" width="400"/>
+<img src="AUTOENCODER.png" alt="Autoencoders architecture" width="200"/>
+<img src="d8.png" alt="Fundus and its reconstruction with d= 8" width="200"/>
