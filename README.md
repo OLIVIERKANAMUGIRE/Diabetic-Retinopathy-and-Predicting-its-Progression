@@ -24,9 +24,3 @@ retinopathy. Color-codes show which true reconstruction corresponds to the laten
 Autoencoders architecture: conv2d is convolutional operation and conv2d.T is convolutional transpose. d is the number of latent channels. σ represents sigmoid activation function.
 ![Autoencoders architecture](AUTOENCODER.png)
 
-
-
-
-
-# ABSTRACT
-Diabetic retinopathy is a rising complication of diabetes that can lead to vision loss when it is not properly treated. Several studies have been extensively conducted on classifying the severity grades and segmenting retinopathy lesions from retinal images. However, there are few studies that focus on the longitudinal dynamics of the disease progression. This work focuses on a longitudinal study of diabetic retinopathy using fundus photographs. Two models were employed:autoencoders for image compression to provide a latent representation, and neural ordinary differential equations to predict the dynamics. The autoencoder model was trained to find the best dimension of the latent space that is relevant for predicting diabetic retinopathy grade. In the latent representation, the neural ordinary differential equation model applied four solvers, where the Dormand-Prince5 solver achieved the best structural similarity of the true fundus photograph and the predicted one. The results show potential for predicting the advancement of retinopathy due to disease progression.
