@@ -8,7 +8,7 @@ solver achieved the best structural similarity of the true fundus photograph and
 
 Keywords: diabetic retinopathy, longitudinal study, autoencoders, neural ordinary differential equations, artificial intelligence, deep learning, image processing
 
-## Key questions
+## Key Question
 * Given a specific point of time in the future, what will patient's condition be like? what was changed in the mean time?
 ![What has changed in course of two years?](https://github.com/user-attachments/assets/cf61a7d6-cc19-4d66-939c-d9f10db6eb1a)
 
